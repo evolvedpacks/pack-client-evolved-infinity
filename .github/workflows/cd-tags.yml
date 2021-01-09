@@ -26,7 +26,7 @@ jobs:
       run: |
         zip -9 evi-client-$(git describe --tags --abbrev=0).zip \
           bin/** config/** mods/** resourcepacks/**
-        ln -s evi-client-$(git describe --tags --abbrev=0).zip evi-client-latest.zip
+        cp evi-client-$(git describe --tags --abbrev=0).zip evi-client-latest.zip
 
     - name: Deploy to Releases
       env:
