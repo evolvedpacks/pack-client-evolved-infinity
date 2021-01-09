@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="bottomright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionicon0} {potionduration0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionicon1} {potionduration1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionicon2} {potionduration2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionicon3} {potionduration3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionicon4} {potionduration4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionicon5} {potionduration5}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionicon6} {potionduration6}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionicon7} {potionduration7}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionicon8} {potionduration8}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+        <str> </str>
+        </line>
+	<line>
+            <var>mainhandicon</var>
+            <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>mainhanddamageleft</var>
+                    <var>mainhandmaxdamage</var>
+                </pct>
+            </operation>
+            <max>
+                <var>mainhanddamageleft</var>
+                <num>0.5</num>
+                <str>$f{mainhanddamageleft} / {mainhandmaxdamage}</str>
+                <var>mainhandname</var>
+            </max>
+        </line>
+        <line>
+            <var>offhandicon</var>
+            <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>offhanddamageleft</var>
+                    <var>offhandmaxdamage</var>
+                </pct>
+            </operation>
+            <max>
+                <var>offhanddamageleft</var>
+                <num>0.5</num>
+                <str>$f{offhanddamageleft} / {offhandmaxdamage}</str>
+                <var>offhandname</var>
+            </max>
+        </line>
+	<line>
+        <str> </str>
+        </line>
+	<line>
+	<var>helmeticon</var>
+	<str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+            </operation>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>$f{helmetdamageleft} / {helmetmaxdamage}</str>
+                <str/>
+            </max>          
+        </line>
+        <line>
+	<var>chestplateicon</var>
+	<str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+            </operation>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>$f{chestplatedamageleft} / {chestplatemaxdamage}</str>
+                <str/>
+            </max>
+          </line>
+        <line>
+	<var>leggingsicon</var>
+	<str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+            </operation>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>$f{leggingsdamageleft} / {leggingsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+	<var>bootsicon</var>
+	<str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+            </operation>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>$f{bootsdamageleft} / {bootsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+</config>

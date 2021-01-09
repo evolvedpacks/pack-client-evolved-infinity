@@ -1,0 +1,15 @@
+{
+  "renders": [
+    "sample/mojang_splash",
+    "sample/loading_bar_standard",
+    "sample/loading_bar_standard_percentage"
+  ],
+  "functions": [
+  ],
+  "factories": [
+  ],
+  "actions": [
+  ],
+  "variables": {
+  }
+}

@@ -1,0 +1,37 @@
+name: CD Tags
+
+on:
+  push:
+    tags:
+    - '*'
+
+jobs:
+
+  build:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+    
+    - name: Set up Hub
+      run: sudo snap install hub --classic
+
+    - name: Set up Zip
+      run: sudo apt install -y zip
+
+    - name: Repository Checkout
+      uses: actions/checkout@v2
+      with:
+        depth: 1
+
+    - name: Assemble Zip
+      run: |
+        zip -9 evi-client-$(git describe --tags --abbrev=0).zip
+
+    - name: Deploy to Releases
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: 'hub release create
+          -a ./evi-client-$(git describe --tags --abbrev=0).zip
+          -F ./CHANGELOG.md
+          $(git describe --tags --abbrev=0)'
