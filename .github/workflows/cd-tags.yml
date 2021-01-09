@@ -26,7 +26,8 @@ jobs:
 
     - name: Assemble Zip
       run: |
-        zip -9 evi-client-$(git describe --tags --abbrev=0).zip
+        zip -9 evi-client-$(git describe --tags --abbrev=0).zip \
+          bin/** config/** mods/** resourcepacks/**
 
     - name: Deploy to Releases
       env:
