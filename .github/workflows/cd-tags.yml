@@ -26,7 +26,6 @@ jobs:
       run: |
         zip -9 evi-client-$(git describe --tags --abbrev=0).zip \
           bin/** config/** mods/** resourcepacks/**
-        cp evi-client-$(git describe --tags --abbrev=0).zip evi-client-latest.zip
 
     - name: Deploy to Releases
       env:
@@ -35,11 +34,3 @@ jobs:
           -a ./evi-client-$(git describe --tags --abbrev=0).zip
           -F ./CHANGELOG.md
           $(git describe --tags --abbrev=0)'
-
-    - name: Deploy Assets to Latest Release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: 'hub release edit
-          -a ./evi-client-latest.zip
-          -m "latest-release [$(git describe --tags --abbrev=0)]"
-          latest'
