@@ -21,8 +21,6 @@ jobs:
 
     - name: Repository Checkout
       uses: actions/checkout@v2
-      with:
-        depth: 1
 
     - name: Assemble Zip
       run: |
@@ -36,3 +34,11 @@ jobs:
           -a ./evi-client-$(git describe --tags --abbrev=0).zip
           -F ./CHANGELOG.md
           $(git describe --tags --abbrev=0)'
+
+    - name: Deploy Assets to Latest Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: 'hub release create
+          -a ./evi-client-latest.zip
+          -m "latest-release [$(git describe --tags --abbrev=0)]"
+          latest'
