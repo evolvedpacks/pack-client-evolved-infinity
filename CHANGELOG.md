@@ -1,39 +1,5 @@
-1.20.0+542
+1.20.1+544
 
-• add mod Combo Armors
-• add mod Electrostatic Tinker's Toys
-• add mod Mystical Agriculture Tiered Crystals
-• add mod Portable Drill
-
-• add config Combo Armors
-• add config Electrostatic Tinker's Toys
-• add config Mystical Agriculture Tiered Crystals
-• add config Portable Drill
-
-• update mod Construct's Armory
-• update mod Mystical Adaptations
-• update mod Optifine
-• update mod Thermal Logistics
-• update mod Tinkers' Reforged
-
-• update config AE2 Wireless Terminals
-• update config Aroma Backup S3
-• update config Chisel
-• update config Code Chicken Lib
 • update config Custom Main Menu
-• update config ForgeDiscordRPC
-
-• update resourcepack Evolved Infinity
-
-• remove mod Cursor Mod
-• remove mod Engineer's Doors
-• remove mod Gravity Gun
-• remove mod Tinkers Simple
-
-• remove config Cursor Mod
-• remove config Engineer's Doors
-• remove config Gravity Gun
-
-• add missing files
 
 • remove unused files
