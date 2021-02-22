@@ -1,18 +1,9 @@
-1.21.0+554
+1.22.0+556
 
-• update mod Build Craft
-• update mod Energy Control
 • update mod Forge Discord RPC
-• update mod Integration Foregoing
+• update mod Logistics Pipes
 
-• update config Build Craft
 • update config Custom Main Menu
-• update config Ender IO
-• update config Forge
 • update config Forge Discord RPC
-• update config Integration Foregoing
-• update config Materialis
-• update config Project E
-• update config Tinkers' Reforged
 
-• remove unused files
+• revert mod Energy Control from 0.1.9 to 0.1.8
