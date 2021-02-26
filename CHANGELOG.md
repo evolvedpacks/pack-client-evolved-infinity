@@ -1,9 +1,5 @@
-1.22.0+556
+1.23.0+558
 
-• update mod Forge Discord RPC
-• update mod Logistics Pipes
+• update mod Ore Stone Variants
 
 • update config Custom Main Menu
-• update config Forge Discord RPC
-
-• revert mod Energy Control from 0.1.9 to 0.1.8
