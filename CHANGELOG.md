@@ -1,16 +1,31 @@
-1.24.0+562
+1.25.0+566
 
-• add mod Tinkers' Tool Leveling
+• add mod Chiseled Med
+• add mod Cleanse
+• add mod End Ores
+• add mod Liquid Blocks
+• add mod Ore Berries
 
-• add config Tinkers' Tool Leveling
+• add config Chiseled Me
+• add config Cleanse
+• add config End Ores
+• add config Liquid Blocks
+• add config Ore Berries
 
 • update mod Logistics Pipes
-• update mod Materialis
 
 • update config Custom Main Menu
-• update config Journey Map
-• update config Ore Stone Variants
+• update config Falling Tree
+• update config Inventory Tweaks
 
-• remove mod Liquid Blocks
+• remove mod Advanced Alloy Ingot
+• remove mod Backpacks
+• remove mod Moar Tinkers
+• remove mod Netherending Ores
+• remove mod Quick Store
 
-• remove config Liquid Blocks
+• remove config Backpacks
+• remove config Moar Tinkers
+• remove config Netherending Ores
+
+• fix https://github.com/evolvedpacks/pack-client-evolved-infinity/issues/5
