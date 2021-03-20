@@ -81,7 +81,9 @@
             "minecraft:iron_trapdoor",
             "minecraft:observer",
             "minecraft:iron_door",
-            "minecraft:prismarine"
+            "minecraft:prismarine",
+            "minecraft:magma",
+            "minecraft:mob_spawner"
         ],
         "axe": [
             "minecraft:oak_stairs",
