@@ -1,10 +1,16 @@
-1.27.0+570
+1.28.0+572
 
-• update mod Condition Overload
-• update mod Mystical Lib
-• update mod Ore Stone Variants
-• update mod Total Tinkers
+• add mod Floralis
 
-• update config Condition Overload
+• add config Floralis
+
+• update mod Immersive Technology
+• update mod Lazy Applied Energistics 2
+• update mod Tinkers' Reforged
+
 • update config Custom Main Menu
-• update config Tool Swap
+• update config Tinkers' Reforged
+
+• remove mod Pam's Weee! Flowers
+
+• remove config Pam's Weee! Flowers
