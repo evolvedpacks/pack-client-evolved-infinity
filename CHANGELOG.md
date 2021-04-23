@@ -1,13 +1,5 @@
-1.29.0+574
+1.30.0+576
 
-• add mod Immersive Chemical Engineering
-
-• add config Immersive Chemical Engineering
-
-• update mod JAOPCA
+• update mod Immersive Chemical Engineering
 
 • update config Custom Main Menu
-
-• remove mod Floralis
-
-• remove config Floralis
