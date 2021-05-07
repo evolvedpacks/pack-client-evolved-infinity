@@ -1,5 +1,5 @@
-1.30.0+576
+1.31.0+578
 
-• update mod Immersive Chemical Engineering
+• update mod JAOPCA
 
 • update config Custom Main Menu
