@@ -1,10 +1,6 @@
-1.34.0+592
+1.35.0+594
 
-• update mod Botania
-• update mod Ender IO
-• update mod Ender IO Endergy
-• update mod JAOPCA Agriculture
-• update mod Reborn Core
+• update mod ATOP
+• update mod Hammer Core
 
 • update config Custom Main Menu
-• update config Ender IO
