@@ -1,6 +1,6 @@
-1.35.0+594
+1.36.0+596
 
-• update mod ATOP
 • update mod Hammer Core
+• update mod Thermal Logistics
 
 • update config Custom Main Menu
