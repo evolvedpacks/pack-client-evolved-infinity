@@ -1,6 +1,6 @@
-1.36.0+596
+1.37.0+598
 
-• update mod Hammer Core
-• update mod Thermal Logistics
+• update mod Immersive Petroleum
 
 • update config Custom Main Menu
+• update config Ore Stone Variants
