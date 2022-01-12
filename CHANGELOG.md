@@ -1,9 +1,10 @@
-1.41.0+610
+1.42.0+612
 
-• update dependency Forge
-
-• update mod Biomes O Plenty
-• update mod Mystical Adaptations
+• update mod Cleanse
+• update mod Just Enough IDs
+• update mod Not Enough Energistics
 • update mod Wanion Lib
 
 • update config Custom Main Menu
+• update config Not Enough Energistics
+• update config More Tcon
